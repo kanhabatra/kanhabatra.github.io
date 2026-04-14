@@ -4,39 +4,160 @@
 %% ============================================================
 %% papers.bib — Kanha Batra
 %%
-%% HOW TO ADD A PAPER
-%% ------------------
-%% 1. Go to Google Scholar / PubMed / arXiv and find the BibTeX
-%%    for your paper (usually under "Cite" → "BibTeX").
-%% 2. Paste the entry below.
-%% 3. Add any of these optional al-folio fields inside the entry:
-%%      selected  = {true}           — shows on homepage
-%%      abstract  = {Your abstract}  — adds an expandable abstract
-%%      pdf       = {paper.pdf}      — links to a PDF in assets/pdf/
-%%      html      = {https://...}    — link to paper page
-%%      arxiv     = {2401.00000}     — links to arXiv
-%%      code      = {https://github.com/...}
-%%      poster    = {poster.pdf}
-%%      slides    = {slides.pdf}
-%%      google_scholar_id = {XXXXXX} — enables Scholar citation badge
-%%      preview   = {paper_thumb.png} — thumbnail image in assets/img/
-%%
-%% EXAMPLE ENTRY (rename/replace with your actual papers):
+%% Fields:
+%%   selected  = {true}          — shows on homepage
+%%   abstract  = {text}          — expandable abstract
+%%   pdf       = {filename.pdf}  — file in assets/pdf/papers/
+%%   html      = {https://...}   — link to paper page / DOI
+%%   arxiv     = {XXXX.XXXXX}    — arXiv ID
+%%   code      = {https://...}
+%%   google_scholar_id = {XXXX}  — enables Scholar citation count badge
+%%   abbr      = {Nature}        — journal badge shown on card
 %% ============================================================
 
-@article{batra2024example,
-  abbr        = {J. Neurosci.},
+%% --- Nature papers (co-first) ---
+
+@article{padillacoreano2022cortical,
+  abbr        = {Nature},
   bibtex_show = {true},
-  title       = {[Your Paper Title Here]},
-  author      = {Batra, Kanha and [Co-author 1] and [Co-author 2]},
-  journal     = {[Journal Name]},
-  year        = {2024},
-  abstract    = {[Paste your abstract here]},
+  title       = {Cortical ensembles orchestrate social competition through hypothalamic outputs},
+  author      = {Padilla-Coreano, Nancy and Batra, Kanha and Patarino, Makenzie and Chen, Zexin and
+                 Rock, Rachel R. and Zhang, Ruihan and Hausmann, S\'{e}bastien B. and
+                 Weddington, Javier C. and Patel, Reesha R. and Zhang, Yu E. and Fang, Hao-Shu and
+                 Mishra, Srishti and LeDuke, Deryn O. and Revanna, Jasmin and Li, Hao and
+                 Borio, Matilde and Pamintuan, Rachelle and Bal, Aneesh and Keyes, Laurel R. and
+                 Libster, Avraham and Wichmann, Romy and Mills, Fergil and Taschbach, Felix H. and
+                 Matthews, Gillian A. and Curley, James P. and Fiete, Ila R. and Lu, Cewu and
+                 Tye, Kay M.},
+  journal     = {Nature},
+  year        = {2022},
+  note        = {*co-first authors},
   selected    = {true},
-  % pdf       = {batra2024example.pdf},
-  % html      = {https://doi.org/...},
-  % arxiv     = {2401.00000},
-  % code      = {https://github.com/kanhabatra/...},
+  abstract    = {Social hierarchies profoundly shape behavior in group-living animals, yet the neural
+                 mechanisms by which the brain computes and updates social rank remain poorly
+                 understood. Here we identify cortical ensemble dynamics in the medial prefrontal
+                 cortex (mPFC) that encode social dominance and drive competitive behavior through
+                 projections to the lateral hypothalamus.},
+  html        = {https://www.nature.com/articles/s41586-022-04507-5},
+  % pdf       = {padillacoreano2022cortical.pdf},
+  % google_scholar_id = {},
 }
 
-%% Add more entries below. One @article{...} block per paper.
+@article{li2022neurotensin,
+  abbr        = {Nature},
+  bibtex_show = {true},
+  title       = {Neurotensin orchestrates valence assignment in the amygdala},
+  author      = {Li, Hao and Namburi, Praneeth and Olson, Jacob M. and Borio, Matilde and
+                 Lemieux, Mackenzie E. and Beyeler, Anna and Calhoon, Gwendolyn G. and
+                 Hitora-Imamura, Natsuko and Coley, Austin A. and Libster, Avraham and
+                 Bal, Aneesh and Jin, Xin and Wang, Huan and Jia, Caroline and
+                 Choudhury, Sourav R. and Shi, Xi and Felix-Ortiz, Ada C. and
+                 de la Fuente, Ver\'{o}nica and Barth, Vanessa P. and King, Hunter O. and
+                 Izadmehr, Ehsan M. and Revanna, Jasmin S. and Batra, Kanha and
+                 Fischer, Kyle B. and Keyes, Laurel R. and Padilla-Coreano, Nancy and
+                 Siciliano, Cody A. and McCullogh, Kenneth M. and Wichmann, Romy and
+                 Ressler, Kerry J. and Fiete, Ila R. and Zhang, Feng and Li, Yulong and
+                 Tye, Kay M.},
+  journal     = {Nature},
+  year        = {2022},
+  note        = {*co-first authors},
+  selected    = {true},
+  abstract    = {Neurotensin (NT) is a neuropeptide that has been implicated in the modulation of
+                 dopaminergic and other reward circuits, but its role in assigning emotional valence
+                 in the amygdala has not been established. Here we show that NT release in the
+                 basolateral amygdala orchestrates valence assignment by coordinating activity across
+                 distinct cell populations.},
+  html        = {https://www.nature.com/articles/s41586-022-04964-y},
+  % pdf       = {li2022neurotensin.pdf},
+  % google_scholar_id = {},
+}
+
+%% --- Preprints ---
+
+@article{coley2024predicting,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics
+                 and Facial Expression},
+  author      = {Coley, Austin A. and Batra, Kanha and Delahanty, Jeremy M. and Keyes, Laurel R. and
+                 Pamintuan, Rachelle and Ramot, Assaf and Hagemann, Jim and Lee, Christopher R. and
+                 Liu, Vivian and Adivikolanu, Harini and Cressy, Jianna and Jia, Caroline and
+                 Massa, Francesca and LeDuke, Deryn O. and Gabir, Moumen and Durubeh, Bra'a and
+                 Linderhof, Lexe and Patel, Reesha R. and Wichmann, Romy and Li, Hao and
+                 Fischer, Kyle B. and Pereira, Talmo D. and Tye, Kay M.},
+  journal     = {bioRxiv},
+  year        = {2024},
+  selected    = {false},
+  html        = {https://www.biorxiv.org/content/10.1101/2024.01.01.000000},
+  % pdf       = {coley2024predicting.pdf},
+  % arxiv     = {},
+}
+
+@article{patel2024social,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking},
+  author      = {Patel, Reesha R. and Patarino, Makenzie and Kim, Kelly N. and Pamintuan, Rachelle
+                 and Taschbach, Felix H. and Li, Hao and Lee, Christopher R. and van Hoek, Aniek and
+                 Castro, Rogelio and Cazares, Christian and Miranda, Raymundo L. and Jia, Caroline and
+                 Delahanty, Jeremy M. and Batra, Kanha and Keyes, Laurel R. and Libster, Avraham and
+                 Wichmann, Romy and Pereira, Talmo D. and Benna, Marcus K. and Tye, Kay M.},
+  journal     = {bioRxiv},
+  year        = {2024},
+  selected    = {false},
+  % html      = {},
+  % pdf       = {patel2024social.pdf},
+}
+
+%% --- Peer-reviewed journal articles ---
+
+@article{leppla2023thalamus,
+  abbr        = {Psychopharm.},
+  bibtex_show = {true},
+  title       = {Thalamus sends information about arousal but not valence to the amygdala},
+  author      = {Leppla, Chris A. and Keyes, Laurel R. and Glober, Gordon and Matthews, Gillian A.
+                 and Batra, Kanha and Jay, Maya and Feng, Yu and Chen, Hannah S. and Mills, Fergil
+                 and Delahanty, Jeremy M. and Olsen, Jacob M. and Nieh, Edward H. and
+                 Namburi, Praneeth and Wildes, Craig and Wichmann, Romy and Beyelar, Anna and
+                 Kimchi, Eyal Y. and Tye, Kay M.},
+  journal     = {Psychopharmacology},
+  year        = {2023},
+  selected    = {false},
+  html        = {https://link.springer.com/article/10.1007/s00213-023-06358-0},
+  % pdf       = {leppla2023thalamus.pdf},
+  % google_scholar_id = {},
+}
+
+@article{digma2022correcting,
+  abbr        = {Sci. Rep.},
+  bibtex_show = {true},
+  title       = {Correcting B0 inhomogeneity-induced distortions in whole-body diffusion {MRI} of
+                 bone metastases},
+  author      = {Digma, Leonardino A. and Feng, Christine H. and Conlin, Christopher C. and
+                 Rodr\'{i}guez-Soto, Ana E. and Zhong, Allison Y. and Hussain, Troy S. and
+                 Lui, Asona J. and Batra, Kanha and Simon, Aaron B. and Karunamuni, Roshan and
+                 Kuperman, Joshua and Rakow-Penner, Rebecca and Hahn, Michael E. and
+                 Dale, Anders M. and Seibert, Tyler M.},
+  journal     = {Scientific Reports},
+  year        = {2022},
+  selected    = {false},
+  html        = {https://www.nature.com/articles/s41598-022-08847-0},
+  % pdf       = {digma2022correcting.pdf},
+  % google_scholar_id = {},
+}
+
+@article{feng2021voxel,
+  abbr        = {JMRI},
+  bibtex_show = {true},
+  title       = {Voxel-level Classification of Prostate Cancer on Magnetic Resonance Imaging:
+                 Improving Accuracy Using Four-Compartment Restriction Spectrum Imaging},
+  author      = {Feng, Christine H. and Conlin, Christopher Charles and Batra, Kanha and
+                 Rodriguez-Soto, Ana and Karunamuni, Roshan and Simon, Aaron and Kuperman, Joshua and
+                 Rakow-Penner, Rebecca and Hahn, Michael E. and Dale, Anders M. and Seibert, Tyler M.},
+  journal     = {Journal of Magnetic Resonance Imaging},
+  year        = {2021},
+  selected    = {false},
+  html        = {https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498},
+  % pdf       = {feng2021voxel.pdf},
+  % google_scholar_id = {},
+}

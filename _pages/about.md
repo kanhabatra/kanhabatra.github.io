@@ -5,19 +5,21 @@ permalink: /
 
 subtitle: >
   Postdoctoral Fellow &middot; Computational Neuroscience &amp; AI &middot;
-  <a href="#">[Your Institution]</a>
+  <a href="https://giocomolab.weebly.com/" target="_blank">Giocomo Lab</a> &amp;
+  <a href="https://web.stanford.edu/~swl1/" target="_blank">Linderman Lab</a>,
+  Stanford University
 
 profile:
   align: right
-  image: prof_pic.jpg          # drop your photo as assets/img/prof_pic.jpg
-  image_circular: false        # set to true for a circular crop
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
-    <p>📍 [Your City, Country]</p>
-    <p>🏛️ [Your Department]</p>
-    <p>🏢 [Your Institution]</p>
+    <p>📍 Stanford, CA</p>
+    <p>🏛️ Wu Tsai Neurosciences Institute</p>
+    <p>🏢 Stanford University</p>
 
-selected_papers: true          # shows papers marked selected={true} in papers.bib
-social: true                   # shows social icons defined in _data/socials.yml
+selected_papers: true
+social: true
 
 announcements:
   enabled: true
@@ -25,23 +27,34 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false               # set to true if you start writing blog posts
+  enabled: false
   scrollable: true
   limit: 3
 ---
 
-I am a Postdoctoral Fellow in **Computational Neuroscience and Artificial Intelligence** at
-**[Your Institution]**. My research sits at the intersection of neuroscience and machine learning:
-I build computational models to understand how neural circuits give rise to perception, cognition,
-and behaviour — and I draw inspiration from the brain to design more principled AI systems.
+I am a Postdoctoral Fellow at **Stanford University**, jointly advised by
+[Lisa Giocomo](https://giocomolab.weebly.com/people.html) and
+[Scott Linderman](https://web.stanford.edu/~swl1/). My research sits at the
+intersection of computational neuroscience and machine learning: I study how the
+brain solves the problem of **continual learning** — adapting to a changing world
+without forgetting what it already knows — and use these biological principles to
+build more principled AI systems.
 
-My work spans **neural population dynamics**, **recurrent neural networks as models of cortex**,
-**reinforcement learning**, and **dimensionality reduction for high-dimensional neural data**.
-I am broadly interested in questions about how the brain represents and transforms information,
-and in developing data-driven and theory-grounded tools to answer those questions.
+My current work focuses on hippocampal **remapping** as a computational framework
+for non-stationary representation learning, and on applying **state-space models**
+to large-scale neural population recordings to uncover latent dynamics in
+high-dimensional datasets.
 
-Before my current position, I completed my PhD at **[Your PhD Institution]**, where I worked on
-**[brief PhD topic — e.g., "the role of inhibitory circuits in shaping cortical dynamics"]**.
+I completed my Ph.D. in Machine Learning & Data Science at **UC San Diego**,
+advised by [Kay Tye](https://tyelab.org/kay-m-tye/) and
+[Terrence Sejnowski](https://cnl.salk.edu/) at the Salk Institute. My dissertation
+work combined unsupervised probabilistic modeling (Hidden Markov Models coupled
+with GLMs) with deep reinforcement learning benchmarks to study how the prefrontal
+cortex orchestrates social behavior and supports flexible, multi-task cognition.
+I am a **co-first author on two** ***Nature*** **papers** (2022) from this work.
 
-Feel free to reach out if you would like to discuss science, potential collaborations, or anything
-in between.
+Before that, I received a B.Tech. in Chemical Engineering from
+**IIT Delhi** and held research positions in medical imaging ML at UCSD, and as an
+Applied Science Intern at **Amazon Science**.
+
+Feel free to reach out about research, collaborations, or just to talk science.

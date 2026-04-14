@@ -1,11 +1,11 @@
 # Social links — shown on the About page and CV page.
 # For more options: https://github.com/george-gca/jekyll-socials
 
-cv_pdf: /assets/pdf/cv.pdf          # path to your CV PDF — drop it at assets/pdf/cv.pdf
-email: kanhabatra2008@gmail.com      # your email address
-github_username: kanhabatra          # your GitHub username
-scholar_userid: REPLACE_WITH_YOUR_SCHOLAR_ID   # find at scholar.google.com → your profile → URL param "user=..."
-linkedin_username: REPLACE_WITH_YOUR_LINKEDIN  # your LinkedIn username (last part of linkedin.com/in/...)
-# orcid_id: 0000-0000-0000-0000      # uncomment and fill in if you have an ORCID
-# twitter_username:                  # uncomment if you use Twitter/X
-# rss_icon: true                     # uncomment to show RSS feed icon
+cv_pdf: /assets/pdf/cv.pdf
+email: kanhabatra2008@gmail.com
+github_username: kanhabatra
+scholar_userid: cCppPTsAAAAJ
+linkedin_username: kanhabatra
+# orcid_id: 0000-0000-0000-0000
+# twitter_username:
+# rss_icon: true

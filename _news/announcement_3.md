@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-01 09:00:00-0400
+date: 2023-11-01 09:00:00-0700
 inline: true
 related_posts: false
 ---
 
-Presenting at **[Conference Name]** in [City, Month 2025]. Come find me at [session/poster]!
+Presented at [SfN 2023](https://www.sfn.org/) in Washington DC: *Neuromodulation as a mechanism for lifelong learning in the prefrontal cortex.*
