@@ -1,6 +1,10 @@
 ---
 ---
 
+% ============================================================
+%  JOURNAL ARTICLES
+% ============================================================
+
 @article{padillacoreano2022cortical,
   abbr        = {Nature},
   bibtex_show = {true},
@@ -21,8 +25,11 @@
                  mechanisms by which the brain computes and updates social rank remain poorly
                  understood. Here we identify cortical ensemble dynamics in the medial prefrontal
                  cortex (mPFC) that encode social dominance and drive competitive behavior through
-                 projections to the lateral hypothalamus.},
+                 projections to the lateral hypothalamus. We developed an unsupervised HMM-GLM
+                 framework that models mPFC internal states and predicts behavioral motifs during
+                 competition with high accuracy (ROC-AUC ~0.92).},
   html        = {https://www.nature.com/articles/s41586-022-04507-5},
+  doi         = {10.1038/s41586-022-04507-5},
 }
 
 @article{li2022neurotensin,
@@ -44,42 +51,13 @@
   year        = {2022},
   note        = {*co-first authors},
   selected    = {true},
-  abstract    = {Neurotensin (NT) is a neuropeptide that has been implicated in the modulation of
-                 dopaminergic and other reward circuits, but its role in assigning emotional valence
-                 in the amygdala has not been established. Here we show that NT release in the
-                 basolateral amygdala orchestrates valence assignment by coordinating activity across
-                 distinct cell populations.},
+  abstract    = {Neurotensin (NT) is a neuropeptide implicated in the modulation of dopaminergic
+                 and reward circuits. Here we show that NT release in the basolateral amygdala
+                 orchestrates valence assignment by coordinating activity across distinct cell
+                 populations, linking neuromodulatory signals to the encoding of positive and
+                 negative emotional valence.},
   html        = {https://www.nature.com/articles/s41586-022-04964-y},
-}
-
-@article{coley2024predicting,
-  abbr        = {Preprint},
-  bibtex_show = {true},
-  title       = {Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics
-                 and Facial Expression},
-  author      = {Coley, Austin A. and Batra, Kanha and Delahanty, Jeremy M. and Keyes, Laurel R. and
-                 Pamintuan, Rachelle and Ramot, Assaf and Hagemann, Jim and Lee, Christopher R. and
-                 Liu, Vivian and Adivikolanu, Harini and Cressy, Jianna and Jia, Caroline and
-                 Massa, Francesca and LeDuke, Deryn O. and Gabir, Moumen and Durubeh, Bra{'}a and
-                 Linderhof, Lexe and Patel, Reesha R. and Wichmann, Romy and Li, Hao and
-                 Fischer, Kyle B. and Pereira, Talmo D. and Tye, Kay M.},
-  journal     = {bioRxiv},
-  year        = {2024},
-  selected    = {false},
-}
-
-@article{patel2024social,
-  abbr        = {Preprint},
-  bibtex_show = {true},
-  title       = {Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking},
-  author      = {Patel, Reesha R. and Patarino, Makenzie and Kim, Kelly N. and Pamintuan, Rachelle
-                 and Taschbach, Felix H. and Li, Hao and Lee, Christopher R. and van Hoek, Aniek and
-                 Castro, Rogelio and Cazares, Christian and Miranda, Raymundo L. and Jia, Caroline and
-                 Delahanty, Jeremy M. and Batra, Kanha and Keyes, Laurel R. and Libster, Avraham and
-                 Wichmann, Romy and Pereira, Talmo D. and Benna, Marcus K. and Tye, Kay M.},
-  journal     = {bioRxiv},
-  year        = {2024},
-  selected    = {false},
+  doi         = {10.1038/s41586-022-04964-y},
 }
 
 @article{leppla2023thalamus,
@@ -89,12 +67,17 @@
   author      = {Leppla, Chris A. and Keyes, Laurel R. and Glober, Gordon and Matthews, Gillian A.
                  and Batra, Kanha and Jay, Maya and Feng, Yu and Chen, Hannah S. and Mills, Fergil
                  and Delahanty, Jeremy M. and Olsen, Jacob M. and Nieh, Edward H. and
-                 Namburi, Praneeth and Wildes, Craig and Wichmann, Romy and Beyelar, Anna and
+                 Namburi, Praneeth and Wildes, Craig and Wichmann, Romy and Beyeler, Anna and
                  Kimchi, Eyal Y. and Tye, Kay M.},
   journal     = {Psychopharmacology},
   year        = {2023},
   selected    = {false},
+  abstract    = {The thalamus is a key relay for sensory and affective information. Here we
+                 dissociate the contributions of thalamic projections to the amygdala, demonstrating
+                 that the thalamus encodes and transmits arousal signals but does not carry
+                 valence-specific information to amygdala circuits.},
   html        = {https://link.springer.com/article/10.1007/s00213-023-06358-0},
+  doi         = {10.1007/s00213-023-06358-0},
 }
 
 @article{digma2022correcting,
@@ -110,7 +93,12 @@
   journal     = {Scientific Reports},
   year        = {2022},
   selected    = {false},
+  abstract    = {Whole-body diffusion MRI is increasingly used to assess bone metastases, but
+                 B0 field inhomogeneities introduce geometric distortions that impair diagnostic
+                 accuracy. We develop and validate correction methods that substantially reduce
+                 these distortions, improving quantitative imaging of bone metastases.},
   html        = {https://www.nature.com/articles/s41598-022-08847-0},
+  doi         = {10.1038/s41598-022-08847-0},
 }
 
 @article{feng2021voxel,
@@ -124,5 +112,231 @@
   journal     = {Journal of Magnetic Resonance Imaging},
   year        = {2021},
   selected    = {false},
+  abstract    = {We present a multi-compartment Restriction Spectrum Imaging (RSI) model for
+                 automatic voxel-level classification of prostate cancer on diffusion MRI, achieving
+                 improved accuracy over standard ADC-based methods.},
   html        = {https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498},
+  doi         = {10.1002/jmri.27498},
+}
+
+% ============================================================
+%  PREPRINTS
+% ============================================================
+
+@article{coley2024predicting,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics
+                 and Facial Expression},
+  author      = {Coley, Austin A. and Batra, Kanha and Delahanty, Jeremy M. and Keyes, Laurel R. and
+                 Pamintuan, Rachelle and Ramot, Assaf and Hagemann, Jim and Lee, Christopher R. and
+                 Liu, Vivian and Adivikolanu, Harini and Cressy, Jianna and Jia, Caroline and
+                 Massa, Francesca and LeDuke, Deryn O. and Gabir, Moumen and Durubeh, Bra{'}a and
+                 Linderhof, Lexe and Patel, Reesha R. and Wichmann, Romy and Li, Hao and
+                 Fischer, Kyle B. and Pereira, Talmo D. and Tye, Kay M.},
+  journal     = {bioRxiv},
+  year        = {2024},
+  selected    = {false},
+  abstract    = {Stress-induced anhedonia is a core feature of depression, yet predicting which
+                 individuals will develop it remains an open challenge. By combining cortical
+                 population dynamics with automated facial expression analysis, we demonstrate
+                 that future development of anhedonia can be predicted from baseline neural and
+                 behavioral features, opening avenues for early intervention.},
+  html        = {https://www.biorxiv.org/content/10.1101/2024.02.01.578472},
+  arxiv       = {2024.02.01.578472},
+}
+
+@article{patel2024social,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking},
+  author      = {Patel, Reesha R. and Patarino, Makenzie and Kim, Kelly N. and Pamintuan, Rachelle
+                 and Taschbach, Felix H. and Li, Hao and Lee, Christopher R. and van Hoek, Aniek and
+                 Castro, Rogelio and Cazares, Christian and Miranda, Raymundo L. and Jia, Caroline and
+                 Delahanty, Jeremy M. and Batra, Kanha and Keyes, Laurel R. and Libster, Avraham and
+                 Wichmann, Romy and Pereira, Talmo D. and Benna, Marcus K. and Tye, Kay M.},
+  journal     = {bioRxiv},
+  year        = {2024},
+  selected    = {false},
+  abstract    = {Social isolation is a potent driver of escalated alcohol consumption, but the
+                 underlying neural mechanisms are poorly understood. We identify an amygdala-cortical
+                 circuit recruited by social isolation that gates escalated alcohol drinking,
+                 providing mechanistic insight into the neural basis of isolation-induced substance use.},
+  html        = {https://www.biorxiv.org/content/10.1101/2024.02.12.579910},
+  arxiv       = {2024.02.12.579910},
+}
+
+% ============================================================
+%  CONFERENCE ABSTRACTS & WORKSHOPS
+% ============================================================
+
+@inproceedings{batra2024cosyne_nmoe,
+  abbr        = {Cosyne},
+  bibtex_show = {true},
+  title       = {Neuromodulated mixture of experts: A prefrontal cortex inspired architecture
+                 for lifelong learning},
+  author      = {Batra, Kanha and Bakhti-Suroosh, Anousheh and Yi, Clara N. and Chan, May G. and
+                 Tseng, Ruby and Banducci, Kelbi and Zhang, Jiaqi and Lee, Christopher R. and
+                 Roy, Tanisha and Chang, Kelly and Wichmann, Romy and Jia, Caroline and
+                 Tsuda, Ben and Nielsen, Bryan and Keyes, Laurel R. and Tuazon, Tristan B. and
+                 Pereira, Talmo D. and Sejnowski, Terrence J. and Tye, Kay M.},
+  booktitle   = {Computational \& Systems Neuroscience (Cosyne)},
+  year        = {2024},
+  address     = {Lisbon, Portugal},
+  month       = {March},
+  selected    = {false},
+  abstract    = {We propose a Neuromodulated Mixture of Experts (NMoE) architecture inspired by
+                 the role of neuromodulation in the prefrontal cortex. The model uses gating
+                 signals analogous to neuromodulatory inputs to selectively engage expert
+                 sub-networks, enabling flexible, context-dependent computation and continual
+                 learning without catastrophic forgetting.},
+}
+
+@inproceedings{batra2023sfn_nmoe,
+  abbr        = {SfN},
+  bibtex_show = {true},
+  title       = {Neuromodulation as a mechanism for lifelong learning in the prefrontal cortex},
+  author      = {Batra, Kanha and Bakhti-Suroosh, Anousheh and Yi, Clara N. and Tseng, Ruby and
+                 Banducci, Kelbi and Zhang, Jiaqi and Lee, Christopher R. and Roy, Tanisha and
+                 Chang, Kelly and Wichmann, Romy and Jia, Caroline and Tsuda, Ben and
+                 Nielsen, Bryan and Keyes, Laurel R. and Poelmann, Sophie E. and
+                 Tuazon, Tristan B. and Pereira, Talmo D. and Sejnowski, Terrence J. and
+                 Tye, Kay M.},
+  booktitle   = {Society for Neuroscience (SfN) Annual Meeting},
+  year        = {2023},
+  address     = {Washington, DC},
+  month       = {November},
+  selected    = {false},
+  abstract    = {We present a computational model in which neuromodulatory signals gate the
+                 activity of distinct neural ensembles in the PFC, enabling context-dependent
+                 computation and lifelong learning. The architecture draws on known
+                 neuromodulatory pathways and is benchmarked on continual learning tasks.},
+}
+
+@inproceedings{batra2021sfn_dominance,
+  abbr        = {SfN},
+  bibtex_show = {true},
+  title       = {Cortical ensembles decode social rank and promote dominance behavior via
+                 hypothalamic projections},
+  author      = {Batra, Kanha and Padilla-Coreano, Nancy and Patarino, Makenzie and Chen, Zexin and
+                 Rock, Rachel and Zhang, Ruihan and Hausmann, Sebastien and Weddington, Javier C. and
+                 Patel, Reesha R. and Zhang, Yu Eva and Fang, Hao-Shu and Bal, Aneesh and
+                 Mishra, Srishti and LeDuke, Deryn O. and Revanna, Jasmin and Li, Hao and
+                 Borio, Matilde and Pamintuan, Rachelle and Keyes, Laurel and Libster, Avraham and
+                 Wichmann, Romy and Mills, Fergil and Matthews, Gillian and Curley, James P. and
+                 Fiete, Ila R. and Lu, Cewu and Tye, Kay M.},
+  booktitle   = {Society for Neuroscience (SfN) Annual Meeting},
+  year        = {2021},
+  address     = {Virtual},
+  month       = {November},
+  selected    = {false},
+  note        = {*co-first authors},
+  abstract    = {We apply an unsupervised machine learning framework (HMM-GLM) to large-scale
+                 mPFC recordings during social competition, identifying neural manifolds that
+                 encode social rank and predict competitive behavioral motifs. Downstream
+                 projections to the lateral hypothalamus causally promote dominance behavior.},
+}
+
+@inproceedings{batra2021cosyne_dominance,
+  abbr        = {Cosyne},
+  bibtex_show = {true},
+  title       = {A cortical-hypothalamic circuit decodes social rank and promotes dominance behavior},
+  author      = {Padilla-Coreano, Nancy and Batra, Kanha and Patarino, Makenzie and Chen, Zexin and
+                 Rock, Rachel R. and Zhang, Ruihan and Hausmann, Sebastien B. and
+                 Weddington, Javier C. and Patel, Reesha R. and Zhang, Yu Eva and
+                 Fang, Hao-Shu and Keyes, Laurel R. and Libster, Avraham and Matthews, Gillian and
+                 Curley, James P. and Fiete, Ila R. and Lu, Cewu and Tye, Kay M.},
+  booktitle   = {Computational \& Systems Neuroscience (Cosyne)},
+  year        = {2021},
+  address     = {Virtual},
+  month       = {February},
+  selected    = {false},
+  note        = {*co-first authors},
+  abstract    = {We identify a cortical-hypothalamic circuit that encodes social rank and
+                 causally promotes dominance behavior in mice.},
+}
+
+@inproceedings{batra2020cosyne,
+  abbr        = {Cosyne},
+  bibtex_show = {true},
+  title       = {Using unsupervised machine learning to understand the role of {mPFC} in social
+                 dominance in mice},
+  author      = {Batra, Kanha and Padilla-Coreano, Nancy and Patarino, Makenzie and Rock, Rachel and
+                 Hausmann, Sebastien and Zhang, Ruihan and Chen, Zexin and Zhang, Yu and
+                 Keyes, Laurel R. and Curley, James and Fiete, Ila R. and Lu, Cewu and Tye, Kay M.},
+  booktitle   = {Computational \& Systems Neuroscience (Cosyne)},
+  year        = {2020},
+  address     = {Denver, CO},
+  month       = {February},
+  selected    = {false},
+  note        = {*co-first authors},
+  abstract    = {We apply Hidden Markov Models coupled with Generalized Linear Models to
+                 population recordings in the medial prefrontal cortex during social competition,
+                 identifying latent states that decode social rank and predict behavioral motifs.},
+}
+
+@inproceedings{batra2023cosyne_workshop,
+  abbr        = {Cosyne},
+  bibtex_show = {true},
+  title       = {Workshop: A wrinkle in time --- Neuroscience at multiple timescales},
+  author      = {Batra, Kanha},
+  booktitle   = {Computational \& Systems Neuroscience (Cosyne) --- Workshop Organizer},
+  year        = {2023},
+  address     = {Montreal, Canada},
+  month       = {March},
+  selected    = {false},
+  abstract    = {Organized a workshop exploring how neural computations unfold across timescales
+                 ranging from milliseconds to hours, and how multi-timescale frameworks can bridge
+                 behavioral and circuit-level understanding.},
+}
+
+@inproceedings{jia2025cosyne,
+  abbr        = {Cosyne},
+  bibtex_show = {true},
+  title       = {Social Exclusion Modifies the Behavioral Response and the Insular Representation
+                 of Physical Pain},
+  author      = {Jia, Caroline and Tran, Andrea and Lee, Christopher R. and Aloboudi, Faith and
+                 Say, Ella and Thao, Nick and Batra, Kanha and Bal, Aneesh and Nguyen, Amanda and
+                 Delahanty, Jeremy M. and Chan, May G. and Patel, Reesha R. and Wichmann, Romy and
+                 Keyes, Laurel R. and Taschbach, Felix H. and Li, Yulong and Benna, Marcus K. and
+                 Pereira, Talmo D. and Li, Hao and Tye, Kay M.},
+  booktitle   = {Computational \& Systems Neuroscience (Cosyne)},
+  year        = {2025},
+  address     = {Montreal, Canada},
+  month       = {March},
+  selected    = {false},
+}
+
+@inproceedings{lee2024sfn,
+  abbr        = {SfN},
+  bibtex_show = {true},
+  title       = {Social isolation induces increased {mPFC} ensemble dynamics in response to social
+                 stimuli and distinct behavioral changes in male and female mice},
+  author      = {Lee, Christopher R. and Schneider, Gates P. and Taschbach, Felix H. and
+                 Tuazon, Tristan B. and Garcia, Alexandra and Tsin, Dexter and Chan, May G. and
+                 Batra, Kanha and D'Argence, Andreas R. and Moussa, Naseem and
+                 Bakhti-Suroosh, Anousheh and White, Jesse A. and Bastuba, Alex C. and
+                 Nielsen, Bryan and Wichmann, Romy and Li, Yulong and Pereira, Talmo D. and
+                 Benna, Marcus K. and Tye, Kay M.},
+  booktitle   = {Society for Neuroscience (SfN) Annual Meeting},
+  year        = {2024},
+  address     = {Chicago, IL},
+  month       = {October},
+  selected    = {false},
+}
+
+@inproceedings{miranda2024sfn,
+  abbr        = {SfN},
+  bibtex_show = {true},
+  title       = {Changing social rank alters medial Prefrontal Cortex representations to reward
+                 and punishment-predictive cues},
+  author      = {Miranda, Raymundo L. and Kim, Kelly N. and Lee, Christopher R. and Garcia, Alexandra
+                 and Castro, Rogelio and Batra, Kanha and Bastuba, Alex C. and Syed, Rida and
+                 Nielsen, Bryan and Taschbach, Felix H. and Keyes, Laurel and Wichmann, Romy and
+                 Pereira, Talmo D. and Tye, Kay M.},
+  booktitle   = {Society for Neuroscience (SfN) Annual Meeting},
+  year        = {2024},
+  address     = {Chicago, IL},
+  month       = {October},
+  selected    = {false},
 }

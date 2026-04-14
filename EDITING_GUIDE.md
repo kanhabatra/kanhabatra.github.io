@@ -7,18 +7,18 @@ No HTML, no CSS, no Ruby knowledge required.
 
 ## Quick reference
 
-| What you want to change | File to edit |
-|---|---|
-| Name, institution, site URL | `_config.yml` |
-| Bio / about text | `_pages/about.md` |
-| Social links (email, Scholar, LinkedIn, GitHub) | `_data/socials.yml` |
-| Publications | `_bibliography/papers.bib` |
-| News / announcements | `_news/` |
-| Research projects | `_projects/` |
-| CV (education, jobs, skills, awards) | `assets/json/resume.json` |
-| Profile photo | `assets/img/prof_pic.jpg` |
-| CV PDF | `assets/pdf/cv.pdf` |
-| GitHub repos shown on Repositories page | `_data/repositories.yml` |
+| What you want to change                         | File to edit               |
+| ----------------------------------------------- | -------------------------- |
+| Name, institution, site URL                     | `_config.yml`              |
+| Bio / about text                                | `_pages/about.md`          |
+| Social links (email, Scholar, LinkedIn, GitHub) | `_data/socials.yml`        |
+| Publications                                    | `_bibliography/papers.bib` |
+| News / announcements                            | `_news/`                   |
+| Research projects                               | `_projects/`               |
+| CV (education, jobs, skills, awards)            | `assets/json/resume.json`  |
+| Profile photo                                   | `assets/img/prof_pic.jpg`  |
+| CV PDF                                          | `assets/pdf/cv.pdf`        |
+| GitHub repos shown on Repositories page         | `_data/repositories.yml`   |
 
 ---
 
@@ -38,8 +38,8 @@ Open `_data/socials.yml` and fill in your IDs:
 ```yaml
 email: your@email.com
 github_username: kanhabatra
-scholar_userid: XXXXXXXXXXXX    # from your Google Scholar URL
-linkedin_username: your-name    # from linkedin.com/in/your-name
+scholar_userid: XXXXXXXXXXXX # from your Google Scholar URL
+linkedin_username: your-name # from linkedin.com/in/your-name
 ```
 
 To find your **Google Scholar ID**: go to your Scholar profile page →
@@ -105,7 +105,7 @@ Create a new file in `_news/`, e.g. `_news/2025_neurips.md`:
 ---
 layout: post
 date: 2025-09-25 09:00:00-0400
-inline: true          # true = one-line; false = full expandable post
+inline: true # true = one-line; false = full expandable post
 related_posts: false
 ---
 
@@ -125,9 +125,9 @@ Each file in `_projects/` is one project card. The YAML header controls the card
 ---
 title: My Project
 description: Short one-line description shown on the card.
-img: assets/img/projects/my_project.png   # optional thumbnail
-importance: 1        # lower = appears first
-category: research   # used for filtering
+img: assets/img/projects/my_project.png # optional thumbnail
+importance: 1 # lower = appears first
+category: research # used for filtering
 ---
 ```
 
@@ -186,11 +186,13 @@ The social icon in `_data/socials.yml` already points to `/assets/pdf/cv.pdf`.
 Every time you push to GitHub, the site rebuilds automatically (< 2 min).
 
 **From GitHub Desktop** (recommended):
+
 1. Open GitHub Desktop → it shows your changed files
 2. Write a short commit message (e.g. "Add NeurIPS paper")
 3. Click **Commit to main** → **Push origin**
 
 **From Terminal** (if you prefer):
+
 ```bash
 git add -A
 git commit -m "Add NeurIPS paper"

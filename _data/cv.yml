@@ -1,181 +1,157 @@
 cv:
   name: Kanha Batra
-  label: Postdoctoral Fellow in Computational Neuroscience & AI
-  email: kanhabatra2008@gmail.com
   location: Stanford, CA
-  image: ""
-  summary: >
-    Postdoctoral Fellow at Stanford University (Giocomo Lab & Linderman Lab).
-    Ph.D. in Machine Learning & Data Science, UC San Diego (advisors: Kay Tye,
-    Terrence Sejnowski). Co-first author on two Nature papers. Research spans
-    continual learning, state-space models, deep reinforcement learning, and
-    large-scale neural data analysis.
-
+  email: kanhabatra2008@gmail.com
   social_networks:
-    - network: GitHub
-      username: kanhabatra
     - network: LinkedIn
       username: kanhabatra
-    - network: Google Scholar
-      username: cCppPTsAAAAJ
+    - network: GitHub
+      username: kanhabatra
 
   sections:
-    Education:
+    summary:
+      - Postdoctoral Fellow at Stanford University (Giocomo Lab & Linderman Lab). Ph.D. in
+        Machine Learning & Data Science, UC San Diego (advisors Kay Tye & Terrence Sejnowski).
+        Co-first author on two *Nature* papers (2022). Research spans continual learning,
+        state-space models, deep reinforcement learning, and large-scale neural data analysis.
+
+    education:
       - institution: University of California, San Diego
-        location: La Jolla, CA
-        url: https://ucsd.edu
         area: Electrical & Computer Engineering
-        studyType: Ph.D. in Machine Learning & Data Science
+        degree: Ph.D. in Machine Learning & Data Science
         start_date: 2020-06
         end_date: 2024-06
+        location: La Jolla, CA
         highlights:
           - "Advisors: Kay M. Tye (Salk Institute) & Terrence Sejnowski (Salk Institute)"
-          - "Co-first author on two Nature papers (2022)"
-          - "Best Paper / Hot Topic talk: ACNP 2020"
+          - Co-first author on two *Nature* papers (2022)
 
       - institution: University of California, San Diego
-        location: La Jolla, CA
-        url: https://ucsd.edu
         area: Electrical & Computer Engineering
-        studyType: M.S. in Machine Learning & Data Science
+        degree: M.S. in Machine Learning & Data Science
         start_date: 2018-09
         end_date: 2020-06
+        location: La Jolla, CA
 
       - institution: Indian Institute of Technology, Delhi
-        location: New Delhi, India
-        url: https://home.iitd.ac.in
         area: Chemical Engineering
-        studyType: B.Tech. in Chemical Engineering
+        degree: B.Tech. in Chemical Engineering
         start_date: 2014-07
         end_date: 2018-05
+        location: New Delhi, India
 
-    Experience:
-      - company: Giocomo Lab & Linderman Lab, Stanford University
+    experience:
+      - company: Stanford University — Giocomo Lab & Linderman Lab
         position: Postdoctoral Fellow
-        location: Stanford, CA
-        url: https://giocomolab.weebly.com
         start_date: 2024-09
         end_date: present
+        location: Stanford, CA
         highlights:
-          - >
-            Developing biologically-grounded neural network architectures for continual learning,
-            using hippocampal remapping as a computational framework for non-stationary
-            representation learning.
-          - >
-            Applying state-space models to large-scale neural population recordings (Linderman lab
-            collaboration), targeting scalable inference for latent dynamics in high-dimensional
-            datasets.
+          - Developing biologically-grounded neural network architectures for continual
+            learning, using hippocampal remapping as a computational framework for
+            non-stationary representation learning.
+          - Applying state-space models to large-scale neural population recordings
+            (Linderman lab collaboration), targeting scalable inference for latent dynamics
+            in high-dimensional datasets.
 
-      - company: Systems Neuroscience Lab, Salk Institute / UC San Diego
+      - company: Salk Institute / UC San Diego — Tye Lab
         position: Graduate Student Researcher
-        location: La Jolla, CA
-        url: https://tyelab.org
         start_date: 2019-07
         end_date: 2024-08
+        location: La Jolla, CA
         highlights:
-          - >
-            Built an unsupervised probabilistic state-space model (HMM + GLM) to decode latent
-            behavioral states from high-dimensional mPFC population recordings during social
-            competition; constituted the key computational contribution to a co-first-author
-            Nature (2022) paper.
-          - >
-            Designed a neuromodulation-inspired mixture-of-experts architecture as a meta-learning
-            framework for continual multi-task learning across non-stationary environments;
-            validated via deep RL benchmarks and in-vivo neuroscience experiments.
-          - "Presented at Cosyne 2024 (Lisbon) and SfN 2023 (Washington DC)."
+          - Built an unsupervised probabilistic state-space model (HMM + GLM) to decode
+            latent behavioral states from high-dimensional mPFC population recordings
+            during social competition; key computational contribution to co-first-author
+            *Nature* (2022) paper.
+          - Designed a neuromodulation-inspired mixture-of-experts architecture as a
+            meta-learning framework for continual multi-task learning; validated via deep
+            RL benchmarks and in-vivo experiments.
+          - Presented at Cosyne 2024 (Lisbon) and SfN 2023 (Washington DC).
 
       - company: Amazon Science
         position: Applied Science Intern
-        location: Seattle, WA
-        url: https://www.amazon.science
         start_date: 2022-06
         end_date: 2022-09
+        location: Seattle, WA
         highlights:
-          - >
-            Implemented SHAP-based feature attribution (KernelSHAP, TimeSHAP) to quantify
-            high-impact events in temporal classification tasks on recurrent neural networks for
-            seller recruitment decisions.
-          - "Pipeline operated at production scale, directly informing feature engineering strategy."
+          - Implemented SHAP-based feature attribution (KernelSHAP, TimeSHAP) for temporal
+            classification on RNNs; pipeline operated at production scale for seller
+            recruitment decisions.
 
-      - company: Multimodal Imaging Lab, ACTRI / UC San Diego
+      - company: ACTRI / UC San Diego — Multimodal Imaging Lab
         position: Graduate Student Researcher
-        location: La Jolla, CA
-        url: https://medschool.ucsd.edu
         start_date: 2018-12
         end_date: 2020-06
+        location: La Jolla, CA
         highlights:
-          - >
-            Developed a multi-compartment ML classifier (restriction spectrum imaging) to
-            characterize and segment bone metastases in prostate cancer patients; contributed to
-            publications in Scientific Reports (2022) and JMRI (2021).
+          - Developed a multi-compartment ML classifier (restriction spectrum imaging) to
+            characterize bone metastases in prostate cancer patients; contributed to
+            publications in *Scientific Reports* (2022) and *JMRI* (2021).
 
-    Publications:
-      - title: >
-          Cortical ensembles orchestrate social competition through hypothalamic outputs
-        authors: "Padilla-Coreano N*, Batra K*, et al. & Tye KM"
-        journal: "Nature, 2022 (*co-first authors)"
+    selected_publications:
+      - title: Cortical ensembles orchestrate social competition through hypothalamic outputs
+        authors:
+          - "**Kanha Batra***"
+          - Nancy Padilla-Coreano*
+          - Makenzie Patarino
+          - Zexin Chen
+          - Kay M. Tye
+        date: "2022"
+        journal: "*Nature* (*co-first authors*)"
         url: https://www.nature.com/articles/s41586-022-04507-5
 
-      - title: >
-          Neurotensin orchestrates valence assignment in the amygdala
-        authors: "Li H*, Namburi P*, Olson JM*, ..., Batra K, ..., Tye KM"
-        journal: "Nature, 2022 (*co-first authors)"
+      - title: Neurotensin orchestrates valence assignment in the amygdala
+        authors:
+          - Hao Li*
+          - Praneeth Namburi*
+          - Jacob M. Olson*
+          - "**Kanha Batra**"
+          - Kay M. Tye
+        date: "2022"
+        journal: "*Nature* (*co-first authors*)"
         url: https://www.nature.com/articles/s41586-022-04964-y
 
-      - title: >
-          Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and
-          Facial Expression
-        authors: "Coley AA, Batra K, Delahanty JM, et al. & Tye KM"
-        journal: "Preprint, 2024"
+      - title: >-
+          Predicting Future Development of Stress-Induced Anhedonia From Cortical
+          Dynamics and Facial Expression
+        authors:
+          - Austin A. Coley
+          - "**Kanha Batra**"
+          - Jeremy M. Delahanty
+          - Kay M. Tye
+        date: "2024"
+        journal: "Preprint (*bioRxiv*)"
 
-      - title: >
-          Thalamus sends information about arousal but not valence to the amygdala
-        authors: "Leppla CA, Keyes LR, Glober G, ..., Batra K, ..., Tye KM"
-        journal: "Psychopharmacology, 2023"
+      - title: Thalamus sends information about arousal but not valence to the amygdala
+        authors:
+          - Chris A. Leppla
+          - Laurel R. Keyes
+          - "**Kanha Batra**"
+          - Kay M. Tye
+        date: "2023"
+        journal: "*Psychopharmacology*"
         url: https://link.springer.com/article/10.1007/s00213-023-06358-0
 
-      - title: >
-          Voxel-level Classification of Prostate Cancer on MRI: Improving Accuracy Using
-          Four-Compartment Restriction Spectrum Imaging
-        authors: "Feng CH, Conlin CC, Batra K, Rodriguez-Soto A, et al. & Seibert TM"
-        journal: "Journal of Magnetic Resonance Imaging, 2021"
+      - title: >-
+          Voxel-level Classification of Prostate Cancer on MRI: Improving Accuracy
+          Using Four-Compartment Restriction Spectrum Imaging
+        authors:
+          - Christine H. Feng
+          - Christopher C. Conlin
+          - "**Kanha Batra**"
+          - Tyler M. Seibert
+        date: "2021"
+        journal: "*Journal of Magnetic Resonance Imaging*"
         url: https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498
 
-      - title: >
-          Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone
-          metastases
-        authors: "Digma LA, Feng CH, Conlin CC, ..., Batra K, ..., Seibert TM"
-        journal: "Scientific Reports, 2022"
-        url: https://www.nature.com/articles/s41598-022-08847-0
-
-    Skills:
-      - category: Frameworks & Libraries
-        skills:
-          - PyTorch
-          - TensorFlow
-          - JAX
-          - Hugging Face
-          - scikit-learn
-          - NumPy / SciPy / pandas
-          - wandb
-
-      - category: Methods
-        skills:
-          - Continual / lifelong learning
-          - Meta-learning
-          - Deep reinforcement learning
-          - Transformer architectures
-          - Probabilistic graphical models (HMM, GLM)
-          - Variational inference
-          - Bayesian optimization
-          - SHAP / XAI
-
-      - category: Infrastructure
-        skills:
-          - Python
-          - AWS
-          - Spark
-          - Git / Docker
-          - SLURM / HPC clusters
-          - MATLAB
-          - Linux
+    skills:
+      - label: Frameworks & Libraries
+        details: PyTorch, TensorFlow, JAX, Hugging Face, scikit-learn, NumPy, SciPy, pandas, wandb
+      - label: Methods
+        details: >-
+          Continual/lifelong learning, meta-learning, deep RL, transformer architectures,
+          probabilistic graphical models (HMM, GLM), variational inference, Bayesian
+          optimization, SHAP/XAI
+      - label: Infrastructure
+        details: Python, AWS, Spark, Git, Docker, SLURM/HPC, MATLAB, Linux

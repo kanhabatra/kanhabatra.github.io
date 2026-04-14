@@ -16,3 +16,8 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+# Local RenderCV test output (root level)
+Kanha_Batra_CV.yaml
+classic/
+markdown/
+rendercv_output/

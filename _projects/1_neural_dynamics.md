@@ -1,31 +1,48 @@
 ---
 layout: page
-title: Neural Population Dynamics
-description: Computational models of how populations of neurons encode and transform information during cognition and behaviour.
-img: assets/img/projects/neural_dynamics.png   # add a figure here (optional)
+title: Neural Ensembles in Social Cognition
+description: Discovering how medial prefrontal cortex population dynamics encode social rank and orchestrate competitive behavior through downstream hypothalamic circuits.
+img: assets/img/projects/social_dominance.png
 importance: 1
 category: research
 related_publications: true
 ---
 
-Understanding how the brain works requires going beyond single neurons. This project develops
-**computational and theoretical frameworks** for studying the collective activity of neural
-populations — how geometry, dimensionality, and dynamics of neural manifolds relate to
-computation.
+Social hierarchies are a fundamental feature of group-living animals, yet the neural computations
+underlying social rank — how the brain represents who you are relative to others, and how that
+representation updates — remain poorly understood. This project asks how **populations of
+prefrontal neurons** solve this problem.
 
-### Key questions
+Working with large-scale calcium imaging recordings from the **medial prefrontal cortex (mPFC)**
+during a novel social competition task, I identified rank-dependent neural manifolds: low-dimensional
+subspaces of population activity that tile the dominance hierarchy. Dominant and subordinate mice
+occupy geometrically distinct regions of mPFC population state space, and the trajectory of
+population activity during competition predicts behavioral outcome.
 
-- How are cognitive variables (stimuli, decisions, working memory) encoded in the geometry of
-  population activity?
-- What constraints do circuit architectures impose on the dimensionality and structure of
-  neural representations?
-- How do perturbations (e.g., optogenetic silencing) propagate through a recurrent network?
+To extract these latent states in an unsupervised way, I developed a computational framework
+coupling **Hidden Markov Models (HMMs) with Generalized Linear Models (GLMs)**. The HMM infers
+discrete internal states from high-dimensional spike-count data; each state is described by a GLM
+that captures how neural activity relates to behavioral covariates. Applied to mPFC recordings
+during competition, this model identified states that track social rank and predict nine distinct
+behavioral motifs with a mean ROC-AUC of **0.92**.
 
-### Methods
+Causal perturbation experiments revealed that mPFC ensemble activity drives competitive behavior
+through **projections to the lateral hypothalamus** — establishing a cortical-subcortical circuit
+for the top-down control of social dominance.
 
-We combine **dimensionality reduction** (PCA, GPFA, LFADS), **recurrent neural network (RNN)
-models**, and **dynamical systems theory** to bridge between data and theory.
+{% if page.img %}
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path=page.img title="mPFC manifolds encode social rank" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Rank-dependent neural manifolds in mPFC (left: dominant, right: subordinate trajectories).
+  To add your own figure, save it to <code>assets/img/projects/social_dominance.png</code>.
+  A good choice is Extended Data Fig. 3 or Fig. 4 from the Nature 2022 paper.
+</div>
+{% endif %}
 
-### Collaborators / Funding
+**Collaborators:** Nancy Padilla-Coreano, Ila Fiete, Kay Tye (Salk / UCSD)
 
-[Add collaborators and funding sources here.]
+**Publication:** Padilla-Coreano\*, **Batra**\* et al., *Nature* (2022) — [link](https://www.nature.com/articles/s41586-022-04507-5)

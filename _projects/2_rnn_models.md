@@ -1,30 +1,45 @@
 ---
 layout: page
-title: RNNs as Brain Models
-description: Training recurrent neural networks on cognitive tasks to generate mechanistic hypotheses about cortical computation.
-img: assets/img/projects/rnn_models.png        # add a figure here (optional)
+title: Neuromodulated Mixture of Experts for Lifelong Learning
+description: A prefrontal cortex-inspired neural network architecture that uses neuromodulatory gating to enable flexible, context-dependent computation without catastrophic forgetting.
+img: assets/img/projects/nmoe.png
 importance: 2
 category: research
 related_publications: true
 ---
 
-Recurrent neural networks (RNNs) trained on neuroscience tasks are powerful tools for generating
-mechanistic hypotheses about how cortex computes. This project focuses on **task-optimised RNNs**
-as normative models of brain circuits, and on understanding what properties emerge from
-optimisation.
+How does the prefrontal cortex (PFC) support **continual learning** — the ability to master new
+tasks while retaining previously learned ones? A key feature of PFC is its dense innervation by
+**neuromodulatory systems** (dopamine, acetylcholine, serotonin, norepinephrine), which dynamically
+regulate the gain and connectivity of cortical circuits. This project asks whether neuromodulation
+is a *computational mechanism* for lifelong learning, and whether that mechanism can be instantiated
+in a neural network architecture.
 
-### Key questions
+I designed the **Neuromodulated Mixture of Experts (NMoE)** architecture, in which a learned
+neuromodulatory signal gates a set of expert sub-networks. Each expert specialises in a subset of
+tasks or contexts; the gating mechanism, analogous to neuromodulatory tone, selectively activates
+the relevant experts for the current context. This prevents the weight interference that underlies
+catastrophic forgetting in standard networks.
 
-- What circuit motifs emerge in RNNs trained on working memory, decision-making, or timing tasks?
-- How do the internal representations of trained RNNs compare to neural recordings in matched
-  animals performing the same tasks?
-- Can we design training objectives that yield more biologically realistic dynamics?
+The model was developed and benchmarked alongside a **novel Multi-Context "Seasonal" Foraging
+Task**, designed to mirror the kind of non-stationary, context-dependent decision-making demands
+placed on rodents and humans across changing environments. The task requires the agent to infer
+the current context (season), retrieve the appropriate foraging strategy, and update that strategy
+when the context shifts — a regime where neuromodulatory gating provides a principled advantage.
 
-### Methods
+{% if page.img %}
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path=page.img title="NMoE architecture" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Schematic of the Neuromodulated Mixture of Experts architecture.
+  To add your own figure, save it to <code>assets/img/projects/nmoe.png</code> —
+  a good candidate is the architecture diagram from the Cosyne 2024 poster.
+</div>
+{% endif %}
 
-We use **PyTorch**-based RNN training pipelines, combined with **representational similarity
-analysis (RSA)**, fixed-point analysis, and tools from control theory.
+**Collaborators:** Anousheh Bakhti-Suroosh, Clara N. Yi, Terrence Sejnowski, Kay Tye (Salk / UCSD)
 
-### Collaborators / Funding
-
-[Add collaborators and funding sources here.]
+**Presentations:** Cosyne 2024 (Lisbon) &middot; SfN 2023 (Washington DC)

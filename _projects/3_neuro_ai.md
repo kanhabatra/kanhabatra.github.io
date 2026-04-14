@@ -1,31 +1,46 @@
 ---
 layout: page
-title: Neuro-Inspired AI
-description: Drawing on neuroscience principles to build more efficient, robust, and interpretable machine learning systems.
-img: assets/img/projects/neuro_ai.png          # add a figure here (optional)
+title: Hippocampal Remapping as a Framework for Continual Learning
+description: "Active postdoc research: using the brain's own solution to non-stationarity — hippocampal remapping — to build AI systems that learn continually without forgetting."
+img: assets/img/projects/remapping.png
 importance: 3
 category: research
 related_publications: false
 ---
 
-The brain solves hard problems — generalisation from few examples, robustness to noise,
-continual learning — that remain challenging for modern AI. This project explores
-**neuroscience-inspired inductive biases** and **architectural priors** for deep learning.
+My current postdoctoral research, jointly with the **Giocomo Lab** and **Linderman Lab** at
+Stanford, asks a fundamental question at the interface of neuroscience and machine learning:
+*how does the brain avoid catastrophic forgetting?*
 
-### Research directions
+The hippocampus provides a compelling answer. When an animal moves into a new environment —
+or encounters a familiar environment after a context change — hippocampal place cells
+**remap**: they reorganise their firing fields to create a new, orthogonal representation of
+the new context, while the old representation is preserved. This is, in effect, a biological
+implementation of **non-stationary representation learning**: the system allocates distinct
+representational resources to different contexts, preventing interference between them.
 
-- **Sparse and structured representations:** biological neural codes are sparse; can sparsity
-  constraints improve deep network generalisation?
-- **Temporal credit assignment:** how should networks propagate error signals through time,
-  and can biologically-plausible alternatives to BPTT scale?
-- **Modular and hierarchical architectures:** leveraging the laminar and areal organisation of
-  cortex to design more structured networks.
+This project develops computational models of hippocampal remapping and asks whether the
+computational principles it implements — context-dependent orthogonalization, resource
+allocation, and rapid context inference — can be translated into AI architectures that learn
+continually in non-stationary environments.
 
-### Methods
+On the neural data side, I apply **state-space models** and related probabilistic methods to
+large-scale recordings from hippocampus and entorhinal cortex to characterize the dynamics
+of remapping: how quickly it occurs, what drives it, and how it interacts with learning.
 
-We work primarily in **PyTorch** and use benchmark tasks from both neuroscience (neural
-decoding, latent factor inference) and machine learning (classification, sequence modelling).
+{% if page.img %}
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path=page.img title="Hippocampal remapping" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Schematic of hippocampal remapping across environments.
+  To add a figure, save it to <code>assets/img/projects/remapping.png</code>.
+  A good candidate is a rate map comparison figure from a Giocomo or Frank lab paper.
+</div>
+{% endif %}
 
-### Collaborators / Funding
+**Advisors:** Lisa Giocomo &amp; Scott Linderman (Stanford University)
 
-[Add collaborators and funding sources here.]
+**Status:** Active postdoctoral project (2024–present)

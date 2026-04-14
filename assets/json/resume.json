@@ -3,15 +3,15 @@
     "name": "Kanha Batra",
     "label": "Postdoctoral Fellow in Computational Neuroscience & AI",
     "image": "",
-    "email": "kanhabatra2008@gmail.com",
-    "phone": "",
+    "email": "kbatra@stanford.edu",
+    "phone": "+1-425-362-0498",
     "summary": "Postdoctoral fellow working at the intersection of computational neuroscience and artificial intelligence. I build computational models to understand neural circuit computation and draw on neuroscience principles to design better AI systems.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "[Your City]",
-      "countryCode": "[CC]",
-      "region": "[Your Region]"
+      "address": "Wu Tsai Neurosciences Institute",
+      "postalCode": "94305",
+      "city": "Stanford",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
@@ -20,107 +20,271 @@
         "url": "https://github.com/kanhabatra"
       },
       {
-        "network": "Google Scholar",
-        "username": "Kanha Batra",
-        "url": "https://scholar.google.com/citations?user=REPLACE_WITH_YOUR_ID"
-      },
-      {
         "network": "LinkedIn",
-        "username": "[your-linkedin-username]",
-        "url": "https://linkedin.com/in/[your-linkedin-username]"
+        "username": "kanhabatra",
+        "url": "https://www.linkedin.com/in/kanhabatra/"
       }
     ]
   },
   "work": [
     {
-      "name": "[Your Institution]",
+      "name": "Stanford University",
       "position": "Postdoctoral Fellow",
-      "location": "[City, Country]",
-      "url": "https://[institution-url]",
-      "startDate": "2025-01-01",
+      "location": "Stanford, CA",
+      "url": "https://www.stanford.edu",
+      "startDate": "2024-09-01",
       "endDate": "",
-      "summary": "Research in computational neuroscience and AI, focusing on [brief description of postdoc research].",
+      "summary": "Jointly advised by Lisa Giocomo (Giocomo Lab) and Scott Linderman (Linderman Lab). Research focuses on modeling hippocampal remapping as a computational framework for continual learning in AI.",
       "highlights": [
-        "[Key result or project 1]",
-        "[Key result or project 2]"
+        "Modeling hippocampal remapping for non-stationary representation learning",
+        "Applying state-space models to large-scale neural population recordings",
+        "Developing neuro-inspired architectures for continual learning in AI"
       ]
+    },
+    {
+      "name": "Amazon Science",
+      "position": "Applied Science Intern",
+      "location": "Seattle, WA",
+      "url": "https://www.amazon.science",
+      "startDate": "2022-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Seller Partner Recruitment & Success Team. Built model explanation and attribution pipelines for high-impact event identification.",
+      "highlights": [
+        "Built a KernelSHAP-based model explanation pipeline for multi-class classification problems",
+        "Implemented TimeSHAP for event attribution in recurrent neural network models"
+      ]
+    },
+    {
+      "name": "Salk Institute for Biological Studies / UC San Diego",
+      "position": "Graduate Student Researcher",
+      "location": "La Jolla, CA",
+      "url": "https://tyelab.org",
+      "startDate": "2019-07-01",
+      "endDate": "2024-08-01",
+      "summary": "Systems Neuroscience Lab, advised by Kay Tye (Salk Institute) and Terrence Sejnowski (Salk / UCSD). Dissertation work combined probabilistic modeling and deep reinforcement learning to study prefrontal cortex computation in social behavior and flexible cognition.",
+      "highlights": [
+        "Co-first author on two Nature papers (2022) on neural ensemble dynamics in social competition and valence assignment",
+        "Developed HMM-GLM framework to model mPFC internal states and predict behavioral motifs during social competition (ROC-AUC ~0.92)",
+        "Devised novel Multi-Context Foraging Task for contextual decision-making in rodents and RL simulations",
+        "Developed Neuromodulated Mixture of Experts architecture for lifelong learning, inspired by PFC neuromodulation"
+      ]
+    },
+    {
+      "name": "UC San Diego — Multimodal Imaging Lab",
+      "position": "Graduate Student Researcher",
+      "location": "La Jolla, CA",
+      "url": "https://medschool.ucsd.edu",
+      "startDate": "2018-12-01",
+      "endDate": "2020-06-01",
+      "summary": "Advised by Tyler Seibert and Anders Dale. Medical imaging ML for prostate cancer and bone metastasis segmentation.",
+      "highlights": [
+        "Generated annotations for malignant lesions in diffusion MRI across 50+ prostate cancer patients",
+        "Developed multi-compartment classifier for automatic segmentation of bone-metastasised cancer cells"
+      ]
+    },
+    {
+      "name": "Centre for Advanced Research in Imaging, Neuroscience & Genomics",
+      "position": "Scientific Research Intern",
+      "location": "New Delhi, India",
+      "url": "",
+      "startDate": "2018-05-01",
+      "endDate": "2018-07-01",
+      "summary": "Mahajan Imaging. Developed a pipeline for 3D mesh reconstruction of coronary anatomy from chest CT scans and computed Fractional Flow Reserve for non-invasive stenosis quantification.",
+      "highlights": []
+    },
+    {
+      "name": "IIT Delhi — Medical Image Processing Lab",
+      "position": "Undergraduate Student Researcher",
+      "location": "New Delhi, India",
+      "url": "https://iitd.ac.in",
+      "startDate": "2018-01-01",
+      "endDate": "2018-05-01",
+      "summary": "Advisor: Amit Mehndiratta. EMG signal acquisition and processing via robotic exoskeleton for neuro-muscular rehabilitation in stroke patients.",
+      "highlights": []
+    },
+    {
+      "name": "ETH Zürich — deMello Group",
+      "position": "Undergraduate Student Researcher",
+      "location": "Zürich, Switzerland",
+      "url": "https://demellogroup.ethz.ch",
+      "startDate": "2017-06-01",
+      "endDate": "2018-02-01",
+      "summary": "Advisor: Casadevall i Solvas. Microfluidics & Nanoscience Lab. Automated valve control and real-time cell tracking for high-throughput cell division experiments.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "[Your PhD University]",
-      "location": "[City, Country]",
-      "url": "https://[university-url]",
-      "area": "[Your PhD Field, e.g., Computational Neuroscience]",
+      "institution": "University of California, San Diego",
+      "location": "La Jolla, CA",
+      "url": "https://ucsd.edu",
+      "area": "Machine Learning & Data Science (Electrical & Computer Engineering)",
       "studyType": "PhD",
-      "startDate": "[YYYY-01-01]",
-      "endDate": "[YYYY-01-01]",
-      "score": "",
-      "courses": [],
+      "startDate": "2020-06-01",
+      "endDate": "2024-06-01",
+      "score": "3.64/4.0",
+      "courses": [
+        "Statistical Learning for Neural Signal Processing",
+        "Deep Learning",
+        "Evolutionary Optimization",
+        "Medical Imaging",
+        "Random Processes",
+        "Computational Data Science"
+      ],
       "highlights": [
-        "Thesis: [Your thesis title]",
-        "Advisor: [Your advisor's name]"
+        "Advisors: Kay Tye (Salk Institute) & Terrence Sejnowski (Salk / UCSD)",
+        "Dissertation: Computational models of prefrontal cortex for social behavior and flexible cognition"
       ]
     },
     {
-      "institution": "[Your Undergrad / Masters University]",
-      "location": "[City, Country]",
-      "url": "",
-      "area": "[Field]",
-      "studyType": "[B.Sc. / M.Sc.]",
-      "startDate": "[YYYY-01-01]",
-      "endDate": "[YYYY-01-01]",
-      "score": "",
+      "institution": "University of California, San Diego",
+      "location": "La Jolla, CA",
+      "url": "https://ucsd.edu",
+      "area": "Machine Learning & Data Science (Electrical & Computer Engineering)",
+      "studyType": "MS",
+      "startDate": "2018-09-01",
+      "endDate": "2020-06-01",
+      "score": "3.64/4.0",
+      "courses": [],
+      "highlights": [
+        "MS program fully funded by research position in Multimodal Imaging Lab"
+      ]
+    },
+    {
+      "institution": "Indian Institute of Technology, Delhi",
+      "location": "New Delhi, India",
+      "url": "https://iitd.ac.in",
+      "area": "Chemical Engineering",
+      "studyType": "B.Tech.",
+      "startDate": "2014-07-01",
+      "endDate": "2018-05-01",
+      "score": "8.0/10.0",
       "courses": [],
       "highlights": []
     }
   ],
   "awards": [
     {
-      "title": "[Award or Fellowship Name]",
-      "date": "[YYYY-01-01]",
-      "awarder": "[Awarding Body]",
+      "title": "Hot Topic Presentation",
+      "date": "2020-12-01",
+      "awarder": "American College of Neuropsychopharmacology (ACNP) Annual Meeting",
       "url": "",
-      "summary": "[One-sentence description, or leave blank]"
+      "summary": "Selected for hot topic presentation for work on prefrontal-lateral hypothalamic neurons encoding social dominance."
+    },
+    {
+      "title": "Workshop Organizer — \"A wrinkle in time: Neuroscience at multiple timescales\"",
+      "date": "2023-03-01",
+      "awarder": "Computational & Systems Neuroscience (Cosyne) Conference, Montreal",
+      "url": "",
+      "summary": "Organized an invited workshop on multi-timescale approaches in neuroscience at the premier systems neuroscience conference."
+    },
+    {
+      "title": "Major Shaitan Singh Fellowship",
+      "date": "2017-06-01",
+      "awarder": "Jodhpur Government, India",
+      "url": "",
+      "summary": "Worked with the Jodhpur Government to develop policies aimed at mobilizing the youth."
+    },
+    {
+      "title": "Chief Editor, Board for Student Publications",
+      "date": "2016-06-01",
+      "awarder": "IIT Delhi",
+      "url": "",
+      "summary": "Led the student-run media body at IIT Delhi."
     }
   ],
   "publications": [
     {
-      "name": "[Your Paper Title]",
-      "publisher": "[Journal / Conference Name]",
-      "releaseDate": "[YYYY-MM-DD]",
-      "url": "https://doi.org/[DOI]",
-      "summary": "[One-sentence summary of the paper's contribution]"
+      "name": "Cortical ensembles orchestrate social competition through hypothalamic outputs",
+      "publisher": "Nature",
+      "releaseDate": "2022-03-09",
+      "url": "https://www.nature.com/articles/s41586-022-04507-5",
+      "summary": "Co-first author. Identified mPFC ensemble dynamics encoding social dominance and developed an HMM-GLM framework to model prefrontal internal states during competition, linking cortical dynamics to hypothalamic outputs."
+    },
+    {
+      "name": "Neurotensin orchestrates valence assignment in the amygdala",
+      "publisher": "Nature",
+      "releaseDate": "2022-09-14",
+      "url": "https://www.nature.com/articles/s41586-022-04964-y",
+      "summary": "Co-author. Demonstrated that neurotensin release in the basolateral amygdala coordinates valence assignment by modulating distinct cell populations."
+    },
+    {
+      "name": "Thalamus sends information about arousal but not valence to the amygdala",
+      "publisher": "Psychopharmacology",
+      "releaseDate": "2023-04-01",
+      "url": "https://link.springer.com/article/10.1007/s00213-023-06358-0",
+      "summary": "Co-author. Dissected the role of thalamic projections in transmitting arousal versus valence signals to the amygdala."
+    },
+    {
+      "name": "Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and Facial Expression",
+      "publisher": "bioRxiv (Preprint)",
+      "releaseDate": "2024-01-01",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.02.01.578472",
+      "summary": "Second author. Used cortical population dynamics and facial expression features to predict longitudinal development of stress-induced anhedonia."
+    },
+    {
+      "name": "Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking",
+      "publisher": "bioRxiv (Preprint)",
+      "releaseDate": "2024-01-01",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.02.12.579910",
+      "summary": "Co-author. Identified amygdala-cortical circuit mechanisms by which social isolation promotes escalated alcohol consumption."
+    },
+    {
+      "name": "Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone metastases",
+      "publisher": "Scientific Reports",
+      "releaseDate": "2022-03-17",
+      "url": "https://www.nature.com/articles/s41598-022-08847-0",
+      "summary": "Co-author. Developed correction methods for diffusion MRI distortions in bone metastasis imaging."
+    },
+    {
+      "name": "Voxel-level Classification of Prostate Cancer on MRI: Improving Accuracy Using Four-Compartment Restriction Spectrum Imaging",
+      "publisher": "Journal of Magnetic Resonance Imaging",
+      "releaseDate": "2021-06-01",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498",
+      "summary": "Co-author. Developed a multi-compartment RSI model for automatic prostate cancer segmentation on diffusion MRI."
     }
   ],
   "skills": [
     {
       "name": "Programming",
-      "level": "",
+      "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "PyTorch", "NumPy", "SciPy", "MATLAB", "Julia"]
+      "keywords": ["Python", "PyTorch", "TensorFlow", "NumPy", "SciPy", "MATLAB", "C++", "SQL", "Julia"]
     },
     {
-      "name": "Neuroscience Methods",
-      "level": "",
+      "name": "Computational Neuroscience",
+      "level": "Expert",
       "icon": "fa-solid fa-brain",
       "keywords": [
         "Dimensionality Reduction (PCA, GPFA, LFADS)",
-        "Spike Sorting",
+        "Hidden Markov Models",
+        "Generalized Linear Models",
+        "State-Space Models",
+        "Neural Population Dynamics",
         "Neural Data Analysis",
+        "Spike Sorting",
         "Calcium Imaging"
       ]
     },
     {
       "name": "Machine Learning",
-      "level": "",
+      "level": "Expert",
       "icon": "fa-solid fa-robot",
       "keywords": [
         "Recurrent Neural Networks",
         "Reinforcement Learning",
         "Bayesian Inference",
-        "Deep Learning"
+        "Deep Learning",
+        "Mixture of Experts",
+        "Continual Learning",
+        "Interpretability (SHAP)"
       ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cloud",
+      "keywords": ["AWS", "Spark", "HPC Clusters"]
     }
   ],
   "languages": [
@@ -130,26 +294,86 @@
       "icon": ""
     },
     {
-      "language": "[Other language]",
-      "fluency": "[Level]",
+      "language": "Hindi",
+      "fluency": "Native",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Research interests",
+      "name": "Research Interests",
       "icon": "fa-solid fa-flask",
       "keywords": [
         "Neural population dynamics",
-        "Recurrent neural networks",
-        "Computational models of cognition",
+        "Recurrent neural networks as brain models",
+        "Hippocampal remapping & continual learning",
+        "State-space models for neural data",
         "Neuro-inspired AI",
-        "Reinforcement learning"
+        "Reinforcement learning & decision-making",
+        "Social neuroscience"
       ]
     }
   ],
-  "references": [],
+  "volunteer": [
+    {
+      "organization": "Salk Institute",
+      "position": "Heithoff-Brody Scholar Mentor",
+      "url": "https://www.salk.edu",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
+      "summary": "Mentored a high school student in computational neuroscience research through Salk's High School Scholars program.",
+      "highlights": []
+    },
+    {
+      "organization": "Salk Institute / March of Dimes High School Science Week",
+      "position": "Panelist",
+      "url": "",
+      "startDate": "2021-03-01",
+      "endDate": "2021-03-01",
+      "summary": "Panelist representing the Systems Neuroscience Lab for Salk's Virtual March of Dimes High School Science Week.",
+      "highlights": []
+    },
+    {
+      "organization": "Blood Connect",
+      "position": "Core Team Member",
+      "url": "",
+      "startDate": "2015-06-01",
+      "endDate": "2016-06-01",
+      "summary": "Core team at India's largest student-run NGO tackling blood shortages.",
+      "highlights": []
+    },
+    {
+      "organization": "International Women's Day Wikipedia Edit-a-thon",
+      "position": "Participant / Volunteer",
+      "url": "",
+      "startDate": "2020-03-08",
+      "endDate": "2020-03-08",
+      "summary": "Contributed to improving Wikipedia's coverage of women in science.",
+      "highlights": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Kay M. Tye",
+      "icon": "fa-solid fa-user",
+      "reference": "Professor, Salk Institute for Biological Studies; Adjunct Professor, UCSD Neurobiology. tye@salk.edu"
+    },
+    {
+      "name": "Nancy Padilla-Coreano",
+      "icon": "fa-solid fa-user",
+      "reference": "Assistant Professor, Department of Neuroscience, University of Florida. npadillacoreano@ufl.edu"
+    },
+    {
+      "name": "Terrence J. Sejnowski",
+      "icon": "fa-solid fa-user",
+      "reference": "Professor, Salk Institute for Biological Studies; Professor, UCSD Neurobiology. terry@salk.edu"
+    },
+    {
+      "name": "Tyler Seibert",
+      "icon": "fa-solid fa-user",
+      "reference": "Assistant Professor in Residence, Radiation Medicine and Applied Science, UC San Diego. tseibert@health.ucsd.edu"
+    }
+  ],
   "projects": [],
-  "volunteer": [],
   "certificates": []
 }
