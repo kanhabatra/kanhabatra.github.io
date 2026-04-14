@@ -12,7 +12,7 @@ How does the prefrontal cortex (PFC) support **continual learning** — the abil
 tasks while retaining previously learned ones? A key feature of PFC is its dense innervation by
 **neuromodulatory systems** (dopamine, acetylcholine, serotonin, norepinephrine), which dynamically
 regulate the gain and connectivity of cortical circuits. This project asks whether neuromodulation
-is a *computational mechanism* for lifelong learning, and whether that mechanism can be instantiated
+is a _computational mechanism_ for lifelong learning, and whether that mechanism can be instantiated
 in a neural network architecture.
 
 I designed the **Neuromodulated Mixture of Experts (NMoE)** architecture, in which a learned
@@ -28,6 +28,7 @@ the current context (season), retrieve the appropriate foraging strategy, and up
 when the context shifts — a regime where neuromodulatory gating provides a principled advantage.
 
 {% if page.img %}
+
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path=page.img title="NMoE architecture" class="img-fluid rounded z-depth-1" %}

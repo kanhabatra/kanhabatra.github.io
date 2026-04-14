@@ -25,6 +25,7 @@ valence to neutral stimuli, with distinct cell types serving opponent roles in e
 appetitive versus aversive associations.
 
 {% if page.img %}
+
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path=page.img title="Neurotensin and valence in BLA" class="img-fluid rounded z-depth-1" %}
@@ -41,4 +42,4 @@ appetitive versus aversive associations.
 
 **Collaborators:** Kay Tye, Ila Fiete, Kerry Ressler (Tye Lab, Salk / UCSD)
 
-**Publication:** Li\*, Namburi\*, Olson\* et al., *Nature* (2022) — [link](https://www.nature.com/articles/s41586-022-04964-y)
+**Publication:** Li\*, Namburi\*, Olson\* et al., _Nature_ (2022) — [link](https://www.nature.com/articles/s41586-022-04964-y)

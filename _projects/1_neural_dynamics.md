@@ -31,6 +31,7 @@ through **projections to the lateral hypothalamus** — establishing a cortical-
 for the top-down control of social dominance.
 
 {% if page.img %}
+
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path=page.img title="mPFC manifolds encode social rank" class="img-fluid rounded z-depth-1" %}
@@ -45,4 +46,4 @@ for the top-down control of social dominance.
 
 **Collaborators:** Nancy Padilla-Coreano, Ila Fiete, Kay Tye (Salk / UCSD)
 
-**Publication:** Padilla-Coreano\*, **Batra**\* et al., *Nature* (2022) — [link](https://www.nature.com/articles/s41586-022-04507-5)
+**Publication:** Padilla-Coreano\*, **Batra**\* et al., _Nature_ (2022) — [link](https://www.nature.com/articles/s41586-022-04507-5)

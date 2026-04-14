@@ -10,7 +10,7 @@ related_publications: false
 
 My current postdoctoral research, jointly with the **Giocomo Lab** and **Linderman Lab** at
 Stanford, asks a fundamental question at the interface of neuroscience and machine learning:
-*how does the brain avoid catastrophic forgetting?*
+_how does the brain avoid catastrophic forgetting?_
 
 The hippocampus provides a compelling answer. When an animal moves into a new environment —
 or encounters a familiar environment after a context change — hippocampal place cells
@@ -29,6 +29,7 @@ large-scale recordings from hippocampus and entorhinal cortex to characterize th
 of remapping: how quickly it occurs, what drives it, and how it interacts with learning.
 
 {% if page.img %}
+
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path=page.img title="Hippocampal remapping" class="img-fluid rounded z-depth-1" %}

@@ -30,6 +30,7 @@ Both projects involved close collaboration with radiologists at UC San Diego Hea
 clinical annotation workflows with machine learning model development.
 
 {% if page.img %}
+
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path=page.img title="RSI-based prostate cancer segmentation" class="img-fluid rounded z-depth-1" %}
@@ -45,5 +46,6 @@ clinical annotation workflows with machine learning model development.
 **Advisors:** Tyler Seibert &amp; Anders Dale (UC San Diego)
 
 **Publications:**
-- Feng et al. (incl. **Batra**), *Journal of Magnetic Resonance Imaging* (2021) — [link](https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498)
-- Digma et al. (incl. **Batra**), *Scientific Reports* (2022) — [link](https://www.nature.com/articles/s41598-022-08847-0)
+
+- Feng et al. (incl. **Batra**), _Journal of Magnetic Resonance Imaging_ (2021) — [link](https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498)
+- Digma et al. (incl. **Batra**), _Scientific Reports_ (2022) — [link](https://www.nature.com/articles/s41598-022-08847-0)
