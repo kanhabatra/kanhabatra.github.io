@@ -1,0 +1,9 @@
+github_users:
+  - kanhabatra   # your GitHub username — shows your profile stats on the Repositories page
+
+repo_description_lines_max: 2
+
+github_repos:
+  # List repos you want to highlight. Format: username/repo-name
+  # - kanhabatra/some-cool-repo
+  # - kanhabatra/another-project

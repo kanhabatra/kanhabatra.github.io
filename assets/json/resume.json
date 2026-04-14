@@ -1,0 +1,155 @@
+{
+  "basics": {
+    "name": "Kanha Batra",
+    "label": "Postdoctoral Fellow in Computational Neuroscience & AI",
+    "image": "",
+    "email": "kanhabatra2008@gmail.com",
+    "phone": "",
+    "summary": "Postdoctoral fellow working at the intersection of computational neuroscience and artificial intelligence. I build computational models to understand neural circuit computation and draw on neuroscience principles to design better AI systems.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "[Your City]",
+      "countryCode": "[CC]",
+      "region": "[Your Region]"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kanhabatra",
+        "url": "https://github.com/kanhabatra"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Kanha Batra",
+        "url": "https://scholar.google.com/citations?user=REPLACE_WITH_YOUR_ID"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "[your-linkedin-username]",
+        "url": "https://linkedin.com/in/[your-linkedin-username]"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "[Your Institution]",
+      "position": "Postdoctoral Fellow",
+      "location": "[City, Country]",
+      "url": "https://[institution-url]",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Research in computational neuroscience and AI, focusing on [brief description of postdoc research].",
+      "highlights": [
+        "[Key result or project 1]",
+        "[Key result or project 2]"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "[Your PhD University]",
+      "location": "[City, Country]",
+      "url": "https://[university-url]",
+      "area": "[Your PhD Field, e.g., Computational Neuroscience]",
+      "studyType": "PhD",
+      "startDate": "[YYYY-01-01]",
+      "endDate": "[YYYY-01-01]",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Thesis: [Your thesis title]",
+        "Advisor: [Your advisor's name]"
+      ]
+    },
+    {
+      "institution": "[Your Undergrad / Masters University]",
+      "location": "[City, Country]",
+      "url": "",
+      "area": "[Field]",
+      "studyType": "[B.Sc. / M.Sc.]",
+      "startDate": "[YYYY-01-01]",
+      "endDate": "[YYYY-01-01]",
+      "score": "",
+      "courses": [],
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "[Award or Fellowship Name]",
+      "date": "[YYYY-01-01]",
+      "awarder": "[Awarding Body]",
+      "url": "",
+      "summary": "[One-sentence description, or leave blank]"
+    }
+  ],
+  "publications": [
+    {
+      "name": "[Your Paper Title]",
+      "publisher": "[Journal / Conference Name]",
+      "releaseDate": "[YYYY-MM-DD]",
+      "url": "https://doi.org/[DOI]",
+      "summary": "[One-sentence summary of the paper's contribution]"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "PyTorch", "NumPy", "SciPy", "MATLAB", "Julia"]
+    },
+    {
+      "name": "Neuroscience Methods",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Dimensionality Reduction (PCA, GPFA, LFADS)",
+        "Spike Sorting",
+        "Neural Data Analysis",
+        "Calcium Imaging"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Recurrent Neural Networks",
+        "Reinforcement Learning",
+        "Bayesian Inference",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "[Other language]",
+      "fluency": "[Level]",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research interests",
+      "icon": "fa-solid fa-flask",
+      "keywords": [
+        "Neural population dynamics",
+        "Recurrent neural networks",
+        "Computational models of cognition",
+        "Neuro-inspired AI",
+        "Reinforcement learning"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "volunteer": [],
+  "certificates": []
+}
