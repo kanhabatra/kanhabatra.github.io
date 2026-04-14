@@ -1,3 +1,6 @@
+# Local credentials — never commit
+.github_token
+
 _site
 .bundle
 .DS_store
