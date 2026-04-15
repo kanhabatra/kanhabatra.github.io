@@ -63,7 +63,7 @@ jobs:
           cache: "pip"
 
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
+        uses: fjogeleit/yaml-update-action@v2
         with:
           commitChange: false
           valueFile: "_config.yml"
