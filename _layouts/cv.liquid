@@ -219,8 +219,14 @@ layout: default
               {% endif %}
               {% if basics.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Email (Professional)</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ basics.email }}</td>
+                </tr>
+              {% endif %}
+              {% if basics.email_personal %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Email (Personal)</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ basics.email_personal }}</td>
                 </tr>
               {% endif %}
               {% if basics.phone %}

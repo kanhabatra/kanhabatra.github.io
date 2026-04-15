@@ -4,8 +4,7 @@
     "label": "Postdoctoral Fellow in Computational Neuroscience & AI",
     "image": "",
     "email": "kbatra@stanford.edu",
-    "phone": "+1-425-362-0498",
-    "summary": "Postdoctoral fellow working at the intersection of computational neuroscience and artificial intelligence. I build computational models to understand neural circuit computation and draw on neuroscience principles to design better AI systems.",
+    "email_personal": "kanhabatra2008@gmail.com",
     "location": {
       "address": "Wu Tsai Neurosciences Institute",
       "postalCode": "94305",
@@ -63,10 +62,10 @@
       "endDate": "2024-08-01",
       "summary": "Systems Neuroscience Lab, advised by Kay Tye (Salk Institute) and Terrence Sejnowski (Salk / UCSD). Dissertation work combined probabilistic modeling and deep reinforcement learning to study prefrontal cortex computation in social behavior and flexible cognition.",
       "highlights": [
-        "Co-first author on two Nature papers (2022) on neural ensemble dynamics in social competition and valence assignment",
         "Developed HMM-GLM framework to model mPFC internal states and predict behavioral motifs during social competition (ROC-AUC ~0.92)",
         "Devised novel Multi-Context Foraging Task for contextual decision-making in rodents and RL simulations",
-        "Developed Neuromodulated Mixture of Experts architecture for lifelong learning, inspired by PFC neuromodulation"
+        "Developed Neuromodulated Mixture of Experts architecture for lifelong learning, inspired by PFC neuromodulation",
+        "Publications: <a href='https://www.nature.com/articles/s41586-022-04507-5' target='_blank'>Cortical ensembles orchestrate social competition (Nature, 2022)</a> · <a href='https://www.nature.com/articles/s41586-022-04964-y' target='_blank'>Neurotensin orchestrates valence assignment (Nature, 2022)</a> · <a href='https://link.springer.com/article/10.1007/s00213-023-06358-0' target='_blank'>Thalamus sends arousal but not valence to amygdala (Psychopharmacology, 2023)</a> · <a href='https://www.biorxiv.org/content/10.1101/2024.02.01.578472' target='_blank'>Predicting stress-induced anhedonia from cortical dynamics (bioRxiv, 2024)</a> · <a href='https://www.biorxiv.org/content/10.1101/2024.02.12.579910' target='_blank'>Social isolation escalates alcohol drinking via amygdala-cortical circuitry (bioRxiv, 2024)</a>"
       ]
     },
     {
@@ -161,87 +160,6 @@
       "highlights": []
     }
   ],
-  "awards": [
-    {
-      "title": "Hot Topic Presentation",
-      "date": "2020-12-01",
-      "awarder": "American College of Neuropsychopharmacology (ACNP) Annual Meeting",
-      "url": "",
-      "summary": "Selected for hot topic presentation for work on prefrontal-lateral hypothalamic neurons encoding social dominance."
-    },
-    {
-      "title": "Workshop Organizer — \"A wrinkle in time: Neuroscience at multiple timescales\"",
-      "date": "2023-03-01",
-      "awarder": "Computational & Systems Neuroscience (Cosyne) Conference, Montreal",
-      "url": "",
-      "summary": "Organized an invited workshop on multi-timescale approaches in neuroscience at the premier systems neuroscience conference."
-    },
-    {
-      "title": "Major Shaitan Singh Fellowship",
-      "date": "2017-06-01",
-      "awarder": "Jodhpur Government, India",
-      "url": "",
-      "summary": "Worked with the Jodhpur Government to develop policies aimed at mobilizing the youth."
-    },
-    {
-      "title": "Chief Editor, Board for Student Publications",
-      "date": "2016-06-01",
-      "awarder": "IIT Delhi",
-      "url": "",
-      "summary": "Led the student-run media body at IIT Delhi."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Cortical ensembles orchestrate social competition through hypothalamic outputs",
-      "publisher": "Nature",
-      "releaseDate": "2022-03-09",
-      "url": "https://www.nature.com/articles/s41586-022-04507-5",
-      "summary": "Co-first author. Identified mPFC ensemble dynamics encoding social dominance and developed an HMM-GLM framework to model prefrontal internal states during competition, linking cortical dynamics to hypothalamic outputs."
-    },
-    {
-      "name": "Neurotensin orchestrates valence assignment in the amygdala",
-      "publisher": "Nature",
-      "releaseDate": "2022-09-14",
-      "url": "https://www.nature.com/articles/s41586-022-04964-y",
-      "summary": "Co-author. Demonstrated that neurotensin release in the basolateral amygdala coordinates valence assignment by modulating distinct cell populations."
-    },
-    {
-      "name": "Thalamus sends information about arousal but not valence to the amygdala",
-      "publisher": "Psychopharmacology",
-      "releaseDate": "2023-04-01",
-      "url": "https://link.springer.com/article/10.1007/s00213-023-06358-0",
-      "summary": "Co-author. Dissected the role of thalamic projections in transmitting arousal versus valence signals to the amygdala."
-    },
-    {
-      "name": "Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and Facial Expression",
-      "publisher": "bioRxiv (Preprint)",
-      "releaseDate": "2024-01-01",
-      "url": "https://www.biorxiv.org/content/10.1101/2024.02.01.578472",
-      "summary": "Second author. Used cortical population dynamics and facial expression features to predict longitudinal development of stress-induced anhedonia."
-    },
-    {
-      "name": "Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking",
-      "publisher": "bioRxiv (Preprint)",
-      "releaseDate": "2024-01-01",
-      "url": "https://www.biorxiv.org/content/10.1101/2024.02.12.579910",
-      "summary": "Co-author. Identified amygdala-cortical circuit mechanisms by which social isolation promotes escalated alcohol consumption."
-    },
-    {
-      "name": "Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone metastases",
-      "publisher": "Scientific Reports",
-      "releaseDate": "2022-03-17",
-      "url": "https://www.nature.com/articles/s41598-022-08847-0",
-      "summary": "Co-author. Developed correction methods for diffusion MRI distortions in bone metastasis imaging."
-    },
-    {
-      "name": "Voxel-level Classification of Prostate Cancer on MRI: Improving Accuracy Using Four-Compartment Restriction Spectrum Imaging",
-      "publisher": "Journal of Magnetic Resonance Imaging",
-      "releaseDate": "2021-06-01",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.27498",
-      "summary": "Co-author. Developed a multi-compartment RSI model for automatic prostate cancer segmentation on diffusion MRI."
-    }
-  ],
   "skills": [
     {
       "name": "Programming",
@@ -283,18 +201,6 @@
       "level": "Intermediate",
       "icon": "fa-solid fa-cloud",
       "keywords": ["AWS", "Spark", "HPC Clusters"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native",
-      "icon": ""
     }
   ],
   "interests": [
@@ -348,28 +254,6 @@
       "endDate": "2020-03-08",
       "summary": "Contributed to improving Wikipedia's coverage of women in science.",
       "highlights": []
-    }
-  ],
-  "references": [
-    {
-      "name": "Kay M. Tye",
-      "icon": "fa-solid fa-user",
-      "reference": "Professor, Salk Institute for Biological Studies; Adjunct Professor, UCSD Neurobiology. tye@salk.edu"
-    },
-    {
-      "name": "Nancy Padilla-Coreano",
-      "icon": "fa-solid fa-user",
-      "reference": "Assistant Professor, Department of Neuroscience, University of Florida. npadillacoreano@ufl.edu"
-    },
-    {
-      "name": "Terrence J. Sejnowski",
-      "icon": "fa-solid fa-user",
-      "reference": "Professor, Salk Institute for Biological Studies; Professor, UCSD Neurobiology. terry@salk.edu"
-    },
-    {
-      "name": "Tyler Seibert",
-      "icon": "fa-solid fa-user",
-      "reference": "Assistant Professor in Residence, Radiation Medicine and Applied Science, UC San Diego. tseibert@health.ucsd.edu"
     }
   ],
   "projects": [],

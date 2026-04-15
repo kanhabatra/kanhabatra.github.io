@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 
 subtitle: >
@@ -51,7 +51,6 @@ advised by [Kay Tye](https://tyelab.org/kay-m-tye/) and
 work combined unsupervised probabilistic modeling (Hidden Markov Models coupled
 with GLMs) with deep reinforcement learning benchmarks to study how the prefrontal
 cortex orchestrates social behavior and supports flexible, multi-task cognition.
-I am a **co-first author on two** **_Nature_** **papers** (2022) from this work.
 
 Before that, I received a B.Tech. in Chemical Engineering from
 **IIT Delhi** and held research positions in medical imaging ML at UCSD, and as an
