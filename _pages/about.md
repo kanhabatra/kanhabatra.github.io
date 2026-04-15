@@ -17,6 +17,7 @@ profile:
     <p>📍 Stanford, CA</p>
     <p>🏛️ Wu Tsai Neurosciences Institute</p>
     <p>🏢 Stanford University</p>
+    <p><a href="/assets/pdf/Resume_v2.pdf" target="_blank">📄 Resume</a></p>
 
 selected_papers: true
 social: true
