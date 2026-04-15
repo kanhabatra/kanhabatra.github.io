@@ -2,7 +2,6 @@
 layout: page
 title: Neuromodulation of Valence in the Amygdala
 description: How neurotensin coordinates the assignment of positive and negative emotional valence in basolateral amygdala circuits.
-img: assets/img/projects/valence_amygdala.png
 importance: 4
 category: research
 related_publications: true

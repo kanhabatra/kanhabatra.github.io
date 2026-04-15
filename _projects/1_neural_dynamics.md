@@ -2,7 +2,6 @@
 layout: page
 title: Neural Ensembles in Social Cognition
 description: Discovering how medial prefrontal cortex population dynamics encode social rank and orchestrate competitive behavior through downstream hypothalamic circuits.
-img: assets/img/projects/social_dominance.png
 importance: 1
 category: research
 related_publications: true

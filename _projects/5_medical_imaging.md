@@ -2,7 +2,6 @@
 layout: page
 title: Machine Learning for Medical Imaging
 description: Voxel-level cancer segmentation and diffusion MRI distortion correction for prostate cancer and bone metastasis diagnosis.
-img: assets/img/projects/medical_imaging.png
 importance: 5
 category: research
 related_publications: true

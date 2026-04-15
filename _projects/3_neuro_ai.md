@@ -2,7 +2,6 @@
 layout: page
 title: Hippocampal Remapping as a Framework for Continual Learning
 description: "Active postdoc research: using the brain's own solution to non-stationarity — hippocampal remapping — to build AI systems that learn continually without forgetting."
-img: assets/img/projects/remapping.png
 importance: 3
 category: research
 related_publications: false

@@ -2,7 +2,6 @@
 layout: page
 title: Neuromodulated Mixture of Experts for Lifelong Learning
 description: A prefrontal cortex-inspired neural network architecture that uses neuromodulatory gating to enable flexible, context-dependent computation without catastrophic forgetting.
-img: assets/img/projects/nmoe.png
 importance: 2
 category: research
 related_publications: true
