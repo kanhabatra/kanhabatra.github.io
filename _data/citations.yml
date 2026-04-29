@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-29'
 papers:
   cCppPTsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,11 +14,11 @@ papers:
     title: Social interaction and alcohol drinking is regulated by the BLA-MPFC circuit
     year: '2023'
   cCppPTsAAAAJ:8k81kl-MbHgC:
-    citations: 1
+    citations: 2
     title: Social Exclusion Amplifies Behavioral Responses to Physical Pain via Insular Neuromodulation
     year: '2025'
   cCppPTsAAAAJ:IjCSPb-OGe4C:
-    citations: 37
+    citations: 39
     title: "Voxel\u2010level Classification of Prostate Cancer on Magnetic Resonance Imaging: Improving Accuracy Using Four\u2010Compartment Restriction Spectrum Imaging"
     year: '2021'
   cCppPTsAAAAJ:MXK_kJrjxJIC:
@@ -30,7 +30,7 @@ papers:
     title: Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and Facial Expression
     year: '2024'
   cCppPTsAAAAJ:W7OEmFMy1HYC:
-    citations: 183
+    citations: 185
     title: Cortical ensembles orchestrate social competition through hypothalamic outputs
     year: '2022'
   cCppPTsAAAAJ:YsMSGLbcyi4C:
