@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-15'
 papers:
   cCppPTsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: Social Exclusion Amplifies Behavioral Responses to Physical Pain via Insular Neuromodulation
     year: '2025'
   cCppPTsAAAAJ:IjCSPb-OGe4C:
-    citations: 43
+    citations: 44
     title: "Voxel\u2010level Classification of Prostate Cancer on Magnetic Resonance Imaging: Improving Accuracy Using Four\u2010Compartment Restriction Spectrum Imaging"
     year: '2021'
   cCppPTsAAAAJ:MXK_kJrjxJIC:
@@ -30,7 +30,7 @@ papers:
     title: Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and Facial Expression
     year: '2024'
   cCppPTsAAAAJ:W7OEmFMy1HYC:
-    citations: 189
+    citations: 191
     title: Cortical ensembles orchestrate social competition through hypothalamic outputs
     year: '2022'
   cCppPTsAAAAJ:YsMSGLbcyi4C:
@@ -38,7 +38,7 @@ papers:
     title: Thalamus sends information about arousal but not valence to the amygdala
     year: '2023'
   cCppPTsAAAAJ:eQOLeE2rZwMC:
-    citations: 105
+    citations: 107
     title: Neurotensin orchestrates valence assignment in the amygdala
     year: '2022'
   cCppPTsAAAAJ:hqOjcs7Dif8C:
