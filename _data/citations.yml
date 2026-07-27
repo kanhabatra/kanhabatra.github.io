@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-27'
 papers:
   cCppPTsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Elucidating differences in BLA-MPFC circuit underlying social rank-dependent alcohol consumption
     year: '2023'
   cCppPTsAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 11
     title: Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone
     year: '2022'
   cCppPTsAAAAJ:5nxA0vEk-isC:
@@ -14,7 +14,7 @@ papers:
     title: Social interaction and alcohol drinking is regulated by the BLA-MPFC circuit
     year: '2023'
   cCppPTsAAAAJ:8k81kl-MbHgC:
-    citations: 2
+    citations: 3
     title: Social Exclusion Amplifies Behavioral Responses to Physical Pain via Insular Neuromodulation
     year: '2025'
   cCppPTsAAAAJ:IjCSPb-OGe4C:
