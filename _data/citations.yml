@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-24'
 papers:
   cCppPTsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Elucidating differences in BLA-MPFC circuit underlying social rank-dependent alcohol consumption
     year: '2023'
   cCppPTsAAAAJ:2osOgNQ5qMEC:
-    citations: 11
+    citations: 12
     title: Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone
     year: '2022'
+  cCppPTsAAAAJ:3fE2CSJIrl8C:
+    citations: 2
+    title: Social exclusion amplifies behavioral responses to physical pain via insular neuromodulation
+    year: '2025'
   cCppPTsAAAAJ:5nxA0vEk-isC:
     citations: 0
     title: Social interaction and alcohol drinking is regulated by the BLA-MPFC circuit
     year: '2023'
   cCppPTsAAAAJ:8k81kl-MbHgC:
-    citations: 3
+    citations: 1
     title: Social Exclusion Amplifies Behavioral Responses to Physical Pain via Insular Neuromodulation
     year: '2025'
   cCppPTsAAAAJ:IjCSPb-OGe4C:
@@ -30,15 +34,15 @@ papers:
     title: Predicting Future Development of Stress-Induced Anhedonia From Cortical Dynamics and Facial Expression
     year: '2024'
   cCppPTsAAAAJ:W7OEmFMy1HYC:
-    citations: 195
+    citations: 197
     title: Cortical ensembles orchestrate social competition through hypothalamic outputs
     year: '2022'
   cCppPTsAAAAJ:YsMSGLbcyi4C:
-    citations: 20
+    citations: 21
     title: Thalamus sends information about arousal but not valence to the amygdala
     year: '2023'
   cCppPTsAAAAJ:eQOLeE2rZwMC:
-    citations: 112
+    citations: 114
     title: Neurotensin orchestrates valence assignment in the amygdala
     year: '2022'
   cCppPTsAAAAJ:hqOjcs7Dif8C:
